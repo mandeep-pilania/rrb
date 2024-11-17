@@ -1,0 +1,50 @@
+
+.bg-image{
+    background-image: url("/assets/img/bg.png");
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 475px;
+  width: 100%;
+
+}
+.products {
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  .image-product{
+    background-image: url("/assets/img/cards.png");
+    background-repeat: no-repeat;
+    height: 240px;
+    background-size: 100%;
+    background-position: top;
+  }
+  .taper {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+  }
+  .discover {
+    font-size: 17px;
+    color: #fff;
+    font-weight: initial;
+  }
+  .read.more {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+  }
+  .card{
+    cursor: pointer;
+  }
+  .banner-text{
+    color:#dcdcdc ;
+  }
+  .card-body{
+    height: 200px;
+  }
+  .card-image{
+    height: 180px;
+  }

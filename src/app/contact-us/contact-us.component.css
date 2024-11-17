@@ -1,0 +1,143 @@
+.contact-section{
+    position: relative;
+    background-image: url(/assets/img/contact-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    padding: 100px 0px;
+
+}
+
+.all-maps{
+    width: 86%;
+    height: 100%;
+    padding: 20px;
+    box-shadow: 0px 0px 7px 0px gray;
+    border-radius: 12px;
+    border-bottom: 5px solid #1B4582;
+}
+.all-maps:hover{
+    border: 1px solid 000000;
+}
+
+.blogs-full{
+    font-weight: 600;
+    font-size: 40px;
+    color: #fff;
+}
+.ul-blogs{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.ul-blogs li{
+font-weight: 600;
+font-size: 20px;
+color: #fff;
+}
+
+.indian-blogs{
+    font-size: 32px;
+    font-weight: 800;
+    color: #000;
+}
+.map-para{
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    margin-top: 18px;
+}
+
+.book-banner{
+    position: relative;
+    background-image: url(/assets/img/contact-banner-company.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    padding: 1px 0px;
+
+}
+
+
+.left-border {
+    background: #1b4582;
+    width: 30px;
+    height: 2px;
+  }
+  .book-span {
+    color: #000000;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 18px;
+  }
+  .book-p {
+    color: #000000;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+  .call-input {
+    border: 1px solid #7d7d7d;
+    padding: 10px 10px;
+    border-radius: 4px;
+    width: 100%;
+    color: #7d7d7d;
+    font-size: 14px;
+  }
+  .call-input::placeholder {
+    color: #7d7d7d;
+  }
+  textarea.call-input {
+    min-height: 170px;
+  }
+  .clls-img {
+    height: 100%;
+    width: 100%;
+  }
+  .right-0 {
+    right: 0;
+  }
+  .z-5 {
+    z-index: 5;
+  }
+  .manage-width-row {
+    width: 90%;
+    margin: auto;
+  }
+  .call-now {
+    color: #fff;
+    background: #1b4582;
+    padding: 12px;
+    font-weight: 900;
+    font-size: 16px;
+    border: 0;
+    width: 160px;
+    gap: 10px;
+    justify-content: center;
+  }
+  .frame-img {
+    max-height: 600px;
+  }
+
+  .call-box {
+    background: #ffffff;
+    padding: 40px;
+    margin-bottom: 100px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
